@@ -1,6 +1,3 @@
-# inventory_app
-
-
 # Inventory App
 
 This is a simple inventory application.
