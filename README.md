@@ -10,7 +10,10 @@ To run the application using Docker, follow these steps:
 2. Clone this repository: `git clone https://github.com/moeketsisegalo/inventory_app.git`
 3. Navigate to the project directory: `cd inventory_app`
 4. Build the Docker image: `docker build -t inventory_app .`
-5. Run the Docker container: `docker run -it inventory_app`
+![build_app](screenshots/build_app.png)
+
+6. Run the Docker container: `docker run -it inventory_app`
+![run_app](screenshots/run_app.png)
 
 The application will be executed inside the Docker container, and you should see the output on your console.
 
