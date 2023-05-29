@@ -42,6 +42,19 @@ python -m pip install -U prettytable
 
 Note: This application uses a file named `inventory.txt` to store the inventory data. Make sure the file exists in the same directory as the `inventory.py` file.
 
+## Functionality
+
+The Inventory App provides the following functionality:
+
+1. **Read the data**: Reads the data from a file named `inventory.txt` and displays the contents.
+2. **Capture Shoes**: Allows the user to input details of a new shoe and adds it to the inventory.
+3. **View All**: Displays all the shoes in the inventory in a tabular format.
+4. **Restock**: Identifies the shoe with the lowest quantity, prompts the user to add more quantity, and updates the inventory accordingly.
+5. **Search for item using the product code**: Allows the user to search for a specific shoe in the inventory using its product code and displays the details if found.
+6. **View the values of all items**: Calculates the total value for each item in the inventory (value = cost * quantity) and displays the results.
+7. **View item with the highest quantity**: Identifies the shoe with the highest quantity in the inventory and displays its details.
+8. **Exit**: Exits the application.
+
 ## Credits
 
 This Inventory App was developed as part of an educational project by Moeketsi Segalo under the guidance of HyperionDev.
