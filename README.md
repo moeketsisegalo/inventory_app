@@ -1,6 +1,6 @@
 # Inventory App
 
-This is a simple inventory application.
+The Inventory App is a command-line application developed in Python for managing a list of shoes in an inventory. It provides various functionalities for interacting with the inventory, such as reading the data from a file, capturing new shoe details, viewing all the shoes in a tabular format, restocking shoes, searching for a shoe by its product code, calculating the value of each item, and identifying the item with the highest quantity.
 
 ## Running with Docker
 
@@ -42,5 +42,9 @@ python -m pip install -U prettytable
 
 Note: This application uses a file named `inventory.txt` to store the inventory data. Make sure the file exists in the same directory as the `inventory.py` file.
 
+## Credits
 
+This Inventory App was developed as part of an educational project by Moeketsi Segalo under the guidance of HyperionDev.
+
+Feel free to explore the functionalities of the Inventory App and manage your shoe inventory efficiently!
 
